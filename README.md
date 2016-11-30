@@ -14,7 +14,7 @@ This script is optimised to run off portable arduino's such as the Arduino Pro M
 
 
 #### Script run time: 5-10 seconds on an Arduino Pro Micro using the Arduino Leonardo chip
-<img src="https://github.com/valkyrix/Arduino-mimikatz-dump-and-report-via-email-for-windows-10/raw/master/pro_micro.jpg" align="middle" height="600" width="600" >
+<img src="https://github.com/valkyrix/Arduino-mimikatz-dump-and-report-via-email-for-windows-10/raw/master/pro_micro.jpg" align="middle" height="350" width="350" >
 
 Mimicats binaries have been hardcoded but they can be changed by replacing the two url's within the powershell command.
 
@@ -25,7 +25,7 @@ Change the SMTP server and port information if you are not using gmail as the pr
 
 #### Script stages
 
-- Launch elevated command prompt.
+- Launch elevated command prompt and bypass UAC
 - Download the correct mimikatz exe based on processor type.
 - Execute mimikatz and export data.
 - Email the output to selected email address as an attachment using powershell's SMTP .
