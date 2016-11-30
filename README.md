@@ -1,4 +1,4 @@
-# Arduino mimikatz dump and report via email for windows-10
+# Arduino mimikatz dump and report via email for windows 10
 ## Runs mimikatz locally from a portable arduino and emails you the report. The Budget Rubber Ducky.
 
 mimikatz dumps the NTLM password hashes, system information and more, very useful for pentesting.
