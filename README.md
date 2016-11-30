@@ -3,10 +3,7 @@
 
 mimikatz dumps the NTLM password hashes, system information and more, very useful for pentesting.
 
-<video controls="controls">
-  <source type="video/webm" src="https://github.com/valkyrix/Arduino-mimikatz-dump-and-report-via-email-for-windows-10/raw/master/mimikatz_in_action.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+![mimikatz arduino](http://i.makeagif.com/media/11-30-2016/yz49gO.gif)
 
 Tested on windows 10, 8, 7, *Vista* on both x64 and x86.
 
