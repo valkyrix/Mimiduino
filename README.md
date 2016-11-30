@@ -5,7 +5,8 @@ mimikatz dumps the NTLM password hashes, system information and more, very usefu
 
 Tested on windows 10, 8, 7, *Vista* on both x64 and x86.
 
-This script was optimised to run off portable arduino's such as the Arduino Pro Micro (really cheap at $3) but will also work on others.
+This script is optimised to run off portable arduino's such as the Arduino Pro Micro (really cheap at $3) but will also work on others. The script's size at only 6,812 bytes is perfect for small flash memory units.
+
 
 #### Script run time: 5-10 seconds on an Arduino Pro Micro using the Arduino Leonardo chip
 <img src="https://github.com/valkyrix/Arduino-mimikatz-dump-and-report-via-email-for-windows-10/raw/master/pro_micro.jpg" align="middle" height="600" width="600" >
