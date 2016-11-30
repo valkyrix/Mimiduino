@@ -3,6 +3,11 @@
 
 mimikatz dumps the NTLM password hashes, system information and more, very useful for pentesting.
 
+<video controls="controls">
+  <source type="video/webm" src="mimikatz_in_action.webm"></source>
+  <p>Your browser does not support the video element.</p>
+</video>
+
 Tested on windows 10, 8, 7, *Vista* on both x64 and x86.
 
 This script is optimised to run off portable arduino's such as the Arduino Pro Micro (really cheap at $3) but will also work on others. The script's size at only 6,812 bytes is perfect for small flash memory units.
