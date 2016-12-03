@@ -9,7 +9,7 @@ This script is optimised to run off portable arduino's such as the Arduino Pro M
 #### Script run time: 5-10 seconds on an Arduino Pro Micro using the Arduino Leonardo chip
 
 ![mimikatz arduino](http://i.makeagif.com/media/11-30-2016/yz49gO.gif)
-
+#### watch the video of it in action here: https://www.youtube.com/watch?v=YhN3__nMW-0
 Mimicats binaries have been hardcoded but they can be changed by replacing the two url's within the powershell command.
 
 The script has been setup to communicate with the gmail smtp server but can be used with any email provider really.
